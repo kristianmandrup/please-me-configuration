@@ -1,0 +1,19 @@
+dirs:
+  DEV: '~/development' 
+  RUBY: '$DEV/ruby' 
+
+destination:
+  gem: '$DEV/gems' # using dir variable!
+  rails-app: '$RUBY/rails/apps'
+  rails3-app: '$RUBY/rails3/apps'
+
+github:
+  name: kmandrup
+
+person: # profile
+  - rspec2
+  readme: 
+    - markdown
+  rails:
+    - simple
+    - mongoid

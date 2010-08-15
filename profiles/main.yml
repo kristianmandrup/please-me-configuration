@@ -1,0 +1,10 @@
+default: &default
+  spec: rspec2
+  readme: 
+    - markdown
+
+gem: # profile
+  <<: *default
+  lib:
+    - gem
+    

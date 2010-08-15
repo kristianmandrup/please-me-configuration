@@ -1,0 +1,9 @@
+default: &default
+  spec: rspec2
+  readme: 
+    - textile
+
+gem: # profile
+  <<: *default
+  lib:
+    - gem
